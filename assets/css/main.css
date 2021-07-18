@@ -1,0 +1,33 @@
+.subscribe-form {
+	width: 100%;
+}
+
+.subscribe-form-row {
+	display: flex;
+	align-items: center;
+}
+
+.subscribe-form-field {
+	width: 100%;
+	padding-right: 10px;
+}
+
+.subscribe-form-message {
+	position: relative;
+	padding: .75rem 1.25rem;
+	margin-top: 1rem;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+
+.subscribe-form-message-success {
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+}
+
+.subscribe-form-message-error {
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
