@@ -137,6 +137,8 @@ class Subscribe {
 
 		require_once ABSPATH . 'wp-admin/includes/upgrade.php';
 
+		global $wpdb;
+
 		$table_name = $this->get_table_name();
 
 		$sql = "CREATE TABLE {$table_name} (
